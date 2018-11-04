@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -43,6 +44,7 @@ public class TestBase {
     public static FileInputStream fis;
     private static final Logger log = LogManager.getLogger(TestBase.class);
     public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "//src//test//resources//exel//testdata.xlsx");
+    public static WebDriverWait wait;
 
     @BeforeSuite
     public void setUp() {
@@ -100,7 +102,7 @@ public class TestBase {
             driver.manage().window().setSize(new Dimension(Integer.parseInt(config.getProperty("dimention.width")), Integer.parseInt(config.getProperty("dimention.height"))));
             log.debug("Screen dimension is:" + config.getProperty("dimention.width") + "x" + config.getProperty("dimention.height"));
             driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
-
+            wait = new WebDriverWait(driver,5);
         }
 
     }

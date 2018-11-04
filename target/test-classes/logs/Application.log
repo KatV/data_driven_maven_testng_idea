@@ -1,8 +1,8 @@
-2018-10-27 02:23:50 DEBUG [main] TestBase:58 - Config file loaded!!!
-2018-10-27 02:23:50 DEBUG [main] TestBase:70 - OR file loaded!!!
-2018-10-27 02:23:52 DEBUG [main] TestBase:90 - Chrome Launched!!!
-2018-10-27 02:23:54 DEBUG [main] TestBase:99 - Navigated to:http://way2automation.com/angularjs-protractor/banking/#/login
-2018-10-27 02:23:54 DEBUG [main] TestBase:101 - Screen dimension is:1440x900
-2018-10-27 02:23:54 DEBUG [main] BankManagerLoginTest:18 - Inside login test
-2018-10-27 02:23:55 DEBUG [main] BankManagerLoginTest:23 - Login test successfully executed!
-2018-10-27 02:23:55 DEBUG [main] TestBase:128 - Test execution completed!!!
+2018-11-05 00:30:07 DEBUG [main] TestBase:60 - Config file loaded!!!
+2018-11-05 00:30:07 DEBUG [main] TestBase:72 - OR file loaded!!!
+2018-11-05 00:30:09 DEBUG [main] TestBase:92 - Chrome Launched!!!
+2018-11-05 00:30:11 DEBUG [main] TestBase:101 - Navigated to:http://way2automation.com/angularjs-protractor/banking/#/login
+2018-11-05 00:30:12 DEBUG [main] TestBase:103 - Screen dimension is:1440x900
+2018-11-05 00:30:12 DEBUG [main] BankManagerLoginTest:20 - Inside login test
+2018-11-05 00:30:12 DEBUG [main] BankManagerLoginTest:25 - Login test successfully executed!
+2018-11-05 00:30:13 DEBUG [main] TestBase:130 - Test execution completed!!!
