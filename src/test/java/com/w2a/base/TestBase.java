@@ -1,6 +1,9 @@
 package com.w2a.base;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.w2a.utilities.ExcelReader;
+import com.w2a.utilities.ExtentManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -45,6 +48,8 @@ public class TestBase {
     private static final Logger log = LogManager.getLogger(TestBase.class);
     public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "//src//test//resources//exel//testdata.xlsx");
     public static WebDriverWait wait;
+    public ExtentReports rep = ExtentManager.getInstance();
+    public static ExtentTest test;
 
     @BeforeSuite
     public void setUp() {
