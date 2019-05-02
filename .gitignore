@@ -4,3 +4,4 @@ test-output/
 *.html
 *.log.gz
 .idea/
+target/

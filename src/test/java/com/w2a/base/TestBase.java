@@ -2,6 +2,7 @@ package com.w2a.base;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import com.w2a.utilities.ExcelReader;
 import com.w2a.utilities.ExtentManager;
 import org.apache.logging.log4j.LogManager;
@@ -110,6 +111,19 @@ public class TestBase {
             wait = new WebDriverWait(driver,5);
         }
 
+    }
+
+    public void click(String locator){
+
+        driver.findElement(By.cssSelector(OR.getProperty(locator))).click();
+        test.log(LogStatus.INFO, "clicking on : " + locator);
+
+    }
+
+    public void type(String locator, String value){
+
+        driver.findElement(By.cssSelector(OR.getProperty(locator))).sendKeys(value);
+        test.log(LogStatus.INFO, "typing in : " + locator + " entered value as " + value);
     }
 
     public boolean isElementPresent(By by) {
