@@ -15,6 +15,9 @@ public class BankManagerLoginTest extends TestBase {
     @Test
     public void loginAsBankManager() throws InterruptedException {
 
+
+        Assert.assertEquals("abc", "xyz");
+
         log.debug("Inside login test");
         click("bmlBtn");
 

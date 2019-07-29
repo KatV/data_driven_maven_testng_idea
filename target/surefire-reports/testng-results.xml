@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-05-02T21:16:27Z" name="Data Driven Basics" finished-at="2019-05-02T21:16:28Z" duration-ms="1226">
+  <suite started-at="2019-07-29T21:10:38Z" name="Data Driven Basics" finished-at="2019-07-29T21:10:40Z" duration-ms="1372">
     <groups>
     </groups>
-    <test started-at="2019-05-02T21:16:27Z" name="Bank Manager Login Test" finished-at="2019-05-02T21:16:28Z" duration-ms="1083">
+    <test started-at="2019-07-29T21:10:38Z" name="Bank Manager Login Test" finished-at="2019-07-29T21:10:40Z" duration-ms="1344">
       <class name="com.w2a.testcases.BankManagerLoginTest">
-        <test-method signature="loginAsBankManager()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@40226788]" started-at="2019-05-02T21:16:27Z" name="loginAsBankManager" finished-at="2019-05-02T21:16:28Z" duration-ms="828" status="PASS">
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@29a23c3d]" started-at="2019-07-29T21:10:38Z" name="loginAsBankManager" finished-at="2019-07-29T21:10:39Z" duration-ms="1053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test started-at="2019-05-02T21:16:28Z" name="Add Customer Test" finished-at="2019-05-02T21:16:28Z" duration-ms="8">
+    <test started-at="2019-07-29T21:10:40Z" name="Add Customer Test" finished-at="2019-07-29T21:10:40Z" duration-ms="7">
       <class name="com.w2a.testcases.AddCustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w2a.testcases.AddCustomerTest@4303b7f0]" started-at="2019-05-02T21:16:22Z" name="setUp" finished-at="2019-05-02T21:16:27Z" duration-ms="5294" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w2a.testcases.AddCustomerTest@1a411233]" started-at="2019-07-29T21:10:34Z" name="setUp" finished-at="2019-07-29T21:10:38Z" duration-ms="4239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.AddCustomerTest@4303b7f0]" started-at="2019-05-02T21:16:28Z" name="AddCustomer" data-provider="dp" finished-at="2019-05-02T21:16:28Z" duration-ms="0" status="SKIP">
+        <test-method signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.AddCustomerTest@1a411233]" started-at="2019-07-29T21:10:40Z" name="AddCustomer" data-provider="dp" finished-at="2019-07-29T21:10:40Z" duration-ms="0" status="SKIP">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NegativeArraySizeException]]>
@@ -46,12 +46,12 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 Caused by: java.lang.NegativeArraySizeException
 at com.w2a.utilities.TestUtil.getData(TestUtil.java:38)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -68,7 +68,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(Met
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.testcases.AddCustomerTest@4303b7f0]" started-at="2019-05-02T21:16:28Z" name="tearDown" finished-at="2019-05-02T21:16:28Z" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.testcases.AddCustomerTest@1a411233]" started-at="2019-07-29T21:10:40Z" name="tearDown" finished-at="2019-07-29T21:10:40Z" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
